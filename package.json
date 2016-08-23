@@ -1,24 +1,36 @@
 {
-  "name": "messenger-platform-samples-master",
+  "name": "messenger-get-started",
   "version": "1.0.0",
-  "description": "This is a sample project showcasing the Messenger Platform. You can go through the [walk-through](https://developers.facebook.com/docs/messenger-platform/quickstart) to understand this code in more detail. The [Complete Guide](https://developers.facebook.com/docs/messenger-platform/implementation) goes deeper into the features available.",
+  "description": "Get started example for Messenger Platform",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
+    "lint": "jshint --exclude node_modules .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ShanJiangDev/facebookMessangerSimpleApp.git"
+    "url": "git+https://github.com/fbsamples/messenger-platform-samples.git"
   },
-  "author": "",
+  "author": "Facebook",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ShanJiangDev/facebookMessangerSimpleApp/issues"
-  },
-  "homepage": "https://github.com/ShanJiangDev/facebookMessangerSimpleApp#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
+    "config": "^1.20.4",
+    "ejs": "^2.4.2",
     "express": "^4.14.0",
     "request": "^2.74.0"
-  }
+  },
+  "engines": {
+    "node": "~4.1.2"
+  },
+  "bugs": {
+    "url": "https://github.com/fbsamples/messenger-platform-samples/issues"
+  },
+  "homepage": "https://github.com/fbsamples/messenger-platform-samples#readme",
+  "keywords": [
+    "messanger",
+    "bot"
+  ],
+  "devDependencies": {}
 }

@@ -56,13 +56,6 @@ if (!(APP_SECRET && VALIDATION_TOKEN && PAGE_ACCESS_TOKEN && SERVER_URL)) {
   process.exit(1);
 }
 
-
-// Server frontpage
-app.get('/', function (req, res) {
-    res.send('This is TestBot Server, tacktack');
-});
-
-
 /*
  * Use your own validation token. Check that the token used in the Webhook 
  * setup is the same token used here.

@@ -31,5 +31,6 @@
   "keywords": [
     "messanger",
     "bot"
-  ]
+  ],
+  "devDependencies": {}
 }

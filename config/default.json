@@ -1,6 +1,6 @@
 {
     "appSecret": "",
-    "pageAccessToken": "",
-    "validationToken": "",
-    "serverURL": ""
+    "pageAccessToken": "EAADMqKKZA0yQBALVGgix2qyKzntIkYdNx985jQItYZBhZBfL0nAKOMqZASyDLX2mVO5wH2o56zS6uVzzvZBdH6vq7el3NxPYpntHCWJI34cOWCtm3vEYFnXZCbY4Dri3vpZA3RVs0rHzO1hdSVfTxPZAU1Dbd1EnuNlt7RvhKDrpbAZDZD",
+    "validationToken": "onetwothree",
+    "serverURL": "https://safe-bayou-72011.herokuapp.com/webhook"
 }

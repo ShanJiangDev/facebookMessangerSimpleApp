@@ -4,3 +4,7 @@ pids
 node_modules
 .npm
 *.dat
+/node_modules
+npm-debug.log
+.DS_Store
+/*.env
